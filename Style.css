@@ -1,20 +1,49 @@
 body{
   font-family: Bebas Neue;
 }
-.menuspace{
-  margin-top: 20px;
-  margin-left: 1100px;
-  word-spacing: 20px;
+.menulinks{
+  text-decoration: none;
+  padding:7px;
+  margin-left: 70%;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px;
+  width: 7%;
 }
+.menulinks1{
+  text-decoration: none;
+  padding:7px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px;
+  width: 7%;
+}
+.menulinks:hover {
+  background-color: black;
+  color: white;
+}
+.menulinks1:hover {
+  background-color: black;
+  color: white;
+}
+#margin{
+  margin-bottom: 5%;
+}
+.bgcolor1{
+  margin-top: 1%;
+  padding-bottom: 50px;
+
+}
+
 .width{
   float: left;
-  width: 40%;
+  width: 45%;
   margin-left: 10px;
 }
 #head1{
   color:#363958;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 10vh;
   line-height: 2%;
   margin-top: 150px;
   margin-left: 120px;
@@ -22,7 +51,7 @@ body{
 #head2{
   color:#ff8367;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 10vh;
   line-height: 2%;
   margin-left: 120px;
   margin-bottom: 80px;
@@ -31,7 +60,7 @@ body{
 .ltlTxt{
   margin-left: 120px;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 3vh;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -43,11 +72,11 @@ body{
   text-decoration: none;
   color: #FFFFFF;
   background-image: linear-gradient(#FF8063,#F46060);
-  padding:10px;
+  padding: 10px;
   margin-left: 120px;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 3.33vh;
   border: 10px;
   width: 25%;
 }
@@ -71,7 +100,7 @@ img{
   color: #363958;
   margin-top: 50%;
   margin-left: 55%;
-  font-size: 50px;
+  font-size: 8.33vh;
   margin-bottom: 10px;
 }
 .about{
@@ -85,15 +114,14 @@ img{
   color: #FFFFFF;
   background-image: linear-gradient(#FF8063,#F46060);
   padding:10px;
-  /* margin-left: 825px; */
   margin-left: 255px;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 3.33vhs;
   border: 10px;
 }
 .bgcolor{
-  margin-top:10%;
+  margin-top: 10%;
   background-color:#F8F9FC;
   padding-bottom: 35%;
 }
@@ -102,7 +130,7 @@ img{
 }
 #latest1{
 
-  font-size: 60px;
+  font-size: 10vh;
   margin-left: 20%;
   padding-top: 5%;
   color: #3E3E3E;
@@ -135,15 +163,15 @@ img{
   background-repeat: no-repeat;
 }
 .work{
-  padding-top:9%;
-  font-size: 50px;
+  padding-top:8.5%;
+  font-size: 8.33vh;
   color : white;
-  padding-left: 30%;
+  padding-left: 27%;
   float: left;
 }
 .workb{
   padding-top: 13.5%;
-  padding-left: 60%;
+  padding-left: 65%;
 }
 .button3{
   text-decoration: none;
@@ -151,21 +179,21 @@ img{
   background-image: linear-gradient(#FF8063,#F46060);
   padding:10px;
   border-radius: 2px;
-  font-size: 15px;
+  font-size: 1.875vh;
   border: 50px;
 }
 .connect{
   color: #3E3E3E;
   padding-top: 5%;
   text-align: center;
-  font-size: 25px;
+  font-size: 4.167vh;
 }
 .com{
   text-decoration: none;
   color: #363958;
   
   text-align: center;
-  font-size: 30px;
+  font-size: 5vh;
   
   
 }
